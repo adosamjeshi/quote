@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body, html{
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  }
+  body {
+    background-image: url("https://bit.ly/39BX0BO");
+    color: black;
+  }
