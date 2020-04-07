@@ -1,21 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { Quote } from '../quote';
+import { Quote } from '../quote'
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-quote',
+  templateUrl: './quote.component.html',
+  styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
   quotes = [
 
     new Quote(1, "Indira Gandhi", "You cannot shake hands with a clenched fist", new Date(2016.11, 15)),
 
-  ];
-
+    
    
-  
+  ]
   deleteQuote(isComplete,index){
     if (isComplete){
       let toDelete=confirm('Are you sure you want to delete quote')

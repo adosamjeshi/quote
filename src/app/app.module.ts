@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { QuoteComponent } from './quote/quote.component';
+import { QuoteComponent } from "./quote/QuoteComponent";
 import { QuoteDetailsComponent } from './quote-detail/quote-detail.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { DatesComponent } from './dates/dates.component';
